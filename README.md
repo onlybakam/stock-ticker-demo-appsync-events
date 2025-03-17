@@ -15,7 +15,7 @@ npm run cdk deploy -- -O output.json
 ```sh
 cd stock-ticker-app
 cd src
-# you must link the file below, it's ignored and not auto commited to the repo
+# you must link the file below, it is ignored and not checked in to repo.
 ln -s ../../stock-ticker-backend/output.json .
 cd ..
 npm install

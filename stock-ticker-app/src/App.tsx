@@ -46,7 +46,7 @@ function App() {
         // console.log(price)
         setSeries((value) => {
           let data = [...value[0].data, price]
-          data = data.reverse().slice(0, 50).reverse()
+          data = data.reverse().slice(0, 30).reverse()
           const updated: DataSeries = [{ data }]
           return updated
         })
